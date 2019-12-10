@@ -10,7 +10,7 @@ addpath(genpath([pwd '/']));
 % NOTE: for para2vecs and skip_thought methods, should first generate the text vectors
 method='AveEmbedding'; 
 parameters.weightMode=1; % 0 - TF or 1 - TFIDF weighting for Kmeans and AveEmbedding methods.
-dataset='Biomedical'; % SearchSnippets, StackOverflow or Biomedical
+dataset='Biomedical'; % SearchSnippets, StackOverflow, Biomedical or News
 index=0;
 randinit4Methods=0;
 randinit4KMeans=0;
